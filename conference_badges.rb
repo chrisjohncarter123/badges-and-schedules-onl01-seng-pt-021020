@@ -26,4 +26,4 @@ def printer
   puts assign_rooms(names)
 end
 
-printer
+#printer
