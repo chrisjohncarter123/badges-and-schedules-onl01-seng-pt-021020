@@ -10,7 +10,7 @@ def batch_badge_creator (array)
   return array.collect{|name| badge_maker(name)}
 end
 
-batch_badge_creator([""])
+batch_badge_creator(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", and "Matz"])
 
 def assign_rooms(array)
   array.each_with_index {| name, index |
