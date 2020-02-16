@@ -5,5 +5,5 @@ def badge_maker (name)
 end
 
 def batch_badge_creator (array)
-  array.collection
+  return (array.collect(|name| badge_maker(name)))
 end
