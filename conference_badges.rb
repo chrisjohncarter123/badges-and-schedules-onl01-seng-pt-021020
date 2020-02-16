@@ -7,3 +7,10 @@ end
 def batch_badge_creator (array)
   return array.collect(|name| badge_maker(name))
 end
+
+def assign_rooms(array)
+  array.length.times (n) do
+    
+    
+  end
+end
