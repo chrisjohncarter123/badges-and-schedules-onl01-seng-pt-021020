@@ -24,10 +24,10 @@ def printer(names)
   #names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   
   badges = batch_badge_creator(names)
-  badges.each {|badge| puts badge}
+  badges.each {|b| puts b}
   
   rooms = assign_rooms(names)
-  rooms.times do {|name| puts name}
+  rooms.each {|n| puts n}
 end
 
 #printer
