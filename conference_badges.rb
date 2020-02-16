@@ -4,13 +4,13 @@ def badge_maker (name)
   puts "Hello, my name is #{name}."
 end
 
-badge_maker("Arel")
+#badge_maker("Arel")
 
 def batch_badge_creator (array)
   return array.collect{|name| badge_maker(name)}
 end
 
-batch_badge_creator(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
+#batch_badge_creator(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"])
 
 def assign_rooms(array)
   array.each_with_index {| name, index |
