@@ -18,7 +18,7 @@ def assign_rooms(array)
   }
 end
 
-puts (assign_rooms(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]))
+#puts (assign_rooms(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]))
 
 def printer
   puts "test"
